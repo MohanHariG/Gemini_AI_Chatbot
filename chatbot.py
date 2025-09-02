@@ -7,7 +7,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QFont, QColor, QPalette
 
 # ====== CONFIGURE API KEY HERE ======
-API_KEY = "AIzaSyDHNmdsqLWm50Cu3Q1apX5R935uAczMB50"  # <-- put your API key here
+API_KEY = "###########################"  # <-- put your API key here
 genai.configure(api_key=API_KEY)
 
 HISTORY_FILE = "chat_history.json"
@@ -101,3 +101,4 @@ if __name__ == "__main__":
     window = ChatBotGUI()
     window.show()
     sys.exit(app.exec_())
+
